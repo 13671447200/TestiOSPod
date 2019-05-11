@@ -12,6 +12,8 @@
 		04D60CF02286BB0E0018F619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D60CEE2286BB0E0018F619 /* Main.storyboard */; };
 		04D60CF22286BB100018F619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D60CF12286BB100018F619 /* Assets.xcassets */; };
 		04D60CF52286BB100018F619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D60CF32286BB100018F619 /* LaunchScreen.storyboard */; };
+		04D60CFE2286C1410018F619 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D60CFD2286C1410018F619 /* Test.swift */; };
+		04D60D002286C1B80018F619 /* TestiOSPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04D60CFF2286C1B80018F619 /* TestiOSPod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04D60CF12286BB100018F619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D60CF42286BB100018F619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D60CF62286BB100018F619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D60CFD2286C1410018F619 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		04D60CFF2286C1B80018F619 /* TestiOSPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestiOSPod.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		04D60CDE2286BB0E0018F619 = {
 			isa = PBXGroup;
 			children = (
+				04D60CFF2286C1B80018F619 /* TestiOSPod.podspec */,
 				04D60CE92286BB0E0018F619 /* TestiOSPod */,
 				04D60CE82286BB0E0018F619 /* Products */,
 			);
@@ -54,6 +59,7 @@
 		04D60CE92286BB0E0018F619 /* TestiOSPod */ = {
 			isa = PBXGroup;
 			children = (
+				04D60CFD2286C1410018F619 /* Test.swift */,
 				04D60CEA2286BB0E0018F619 /* AppDelegate.swift */,
 				04D60CEC2286BB0E0018F619 /* ViewController.swift */,
 				04D60CEE2286BB0E0018F619 /* Main.storyboard */,
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D60D002286C1B80018F619 /* TestiOSPod.podspec in Resources */,
 				04D60CF52286BB100018F619 /* LaunchScreen.storyboard in Resources */,
 				04D60CF22286BB100018F619 /* Assets.xcassets in Resources */,
 				04D60CF02286BB0E0018F619 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				04D60CED2286BB0E0018F619 /* ViewController.swift in Sources */,
 				04D60CEB2286BB0E0018F619 /* AppDelegate.swift in Sources */,
+				04D60CFE2286C1410018F619 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
